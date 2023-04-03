@@ -1,0 +1,23 @@
+{
+    "components": {
+        "app": {
+            "view": {
+                "title": "翻译示例",
+                "description": "Lorem Ipsum 只是印刷和排版行业的虚拟文本。 自 1500 年代以来，Lorem Ipsum 一直是行业的标准虚拟文本，当时一位不知名的印刷商拿走了一个字体厨房，并把它加在一起制作了一本字体样本书。"
+            },
+            "controller": {}
+        },
+        "appMenu": {
+            "view": {
+                "btnAccount": "帐户",
+                "btnPayPal": "贝宝",
+                "btnSend": "发送",
+                "btnNotifications": "通知",
+                "btnShare": "分享",
+                "btnRss": "RSS 流",
+                "btnSettings": "设置"
+            },
+            "controller": {}
+        }
+    }
+}

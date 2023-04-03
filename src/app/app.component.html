@@ -1,1 +1,12 @@
-Angular Localization
+<div class="app">
+    <app-menu></app-menu>
+    <div class="app__content">
+        <select class="app-select" (change)="onLanguageChange($event)">
+            <option value="en-us">English</option>
+            <option value="sv-se">Swedish</option>
+            <option value="zn-zh">Chinese (Simplified)</option>
+        </select>
+        <h1 class="app__title" [innerHTML]="'components.app.view.title' | translate"></h1>
+        <p class="app__description" [innerHTML]="'components.app.view.description' | translate"></p>
+    </div>
+</div>

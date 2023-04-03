@@ -1,0 +1,23 @@
+{
+    "components": {
+        "app": {
+            "view": {
+                "title": "Exempel översättning",
+                "description": "Lorem Ipsum är helt enkelt dummy text från tryckeri- och sättningsindustrin. Lorem Ipsum har varit branschens vanliga dummytext ända sedan 1500-talet, då en okänd skrivare tog ett pentry av typ och förvrängde det för att göra en typprovbok."
+            },
+            "controller": {}
+        },
+        "appMenu": {
+            "view": {
+                "btnAccount": "Konto",
+                "btnPayPal": "PayPal",
+                "btnSend": "Skicka",
+                "btnNotifications": "Notifikationer",
+                "btnShare": "Dela",
+                "btnRss": "RSS Flöde",
+                "btnSettings": "Inställningar"
+            },
+            "controller": {}
+        }
+    }
+}

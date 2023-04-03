@@ -1,0 +1,22 @@
+.app-side-menu {
+    background-color: #ffffff;
+    border-right: 1px solid #bbbdc3;
+    height: 100%;
+    width: 64px;
+
+    &__button {
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 64px;
+        border-bottom: 1px solid #bbbdc3;
+        border-left: 4px solid transparent;
+        transition: all ease-in-out 150ms;
+
+        &:hover {
+            background-color: #e4e9f1;
+            border-left-color: #4a79d6;
+        }
+    }
+}
