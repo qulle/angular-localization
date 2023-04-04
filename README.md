@@ -141,9 +141,9 @@ As the above example shows, the handling of languages can be made very dynamic. 
 ```json
 {
     "locale": {
-        "default": "en-us",
-        "selected": "sv-se",
-        "supported": {
+        "default": "sv-se",
+        "selected": "en-us",
+        "supported": [
             {
                 "key": "English (en-us)",
                 "value": "en-us"
@@ -156,8 +156,8 @@ As the above example shows, the handling of languages can be made very dynamic. 
                 "key": "Chinese (zn-zh)",
                 "value": "zn-zh"
             }
-        }
-    }
+        ]
+    },
 }
 ```
 
